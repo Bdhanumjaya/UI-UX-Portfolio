@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css" />
+    <script
+      src="https://kit.fontawesome.com/d2b224395e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#mywork">Mywork</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i
+              class="fa-sharp fa-solid fa-circle-xmark"
+              onclick="closemenu()"
+            ></i>
+          </ul>
+          <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Fronted Designer</p>
+          <h1>
+            Hi,I'm <span>Dhanumjaya</span> <br />
+            Bonu From India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!--About-->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              To obtain a challenging and rewarding position as a 
+              Computer science professional, leverging my skiils and
+              Knowledge to cintribute to the growth amd sucess of a
+              dyanamic organization.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Creative</span><br />Designing Web/app interfaces</li>
+                <li><span>Web Development</span><br />Web app development</li>
+                <li><span>App Development</span><br />Building Android/IOS</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021-2025-current</span><br />BTech from Centirion
+                </li>
+                <li><span>2019-2021</span><br />Inter from SKK Junior college</li>
+                <li>
+                  <span>2018-2019</span><br />Ssc from Meliaputti </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>NEEDIN</span><br />Service Based Website
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------Services ------------------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              "Web design creates visually appealing website layouts using HTML,
+              CSS, and JavaScript for optimal user experience and cross-device
+              functionality."
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              "UX/UI design emphasizes improving overall user satisfaction by
+              enhancing the usability, accessibility, and enjoyment of the
+              product, ensuring a seamless and meaningful experience."
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              "App development involves designing, coding, and testing software
+              applications tailored for specific platforms, such as iOS,
+              Android, or cross-platform use."
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------- portfolio ------------------------->
+    <div id="mywork">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                A dynamic platform that connects individuals from across the
+                globe, allowing them to share their thoughts, images, and videos
+                with friends and followers. It provides various communication
+                tools such as instant messaging, photo sharing, and video
+                calling. Users can create personal profiles, follow their
+                favorite personalities, and join communities of shared
+                interests.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                A user-friendly music application that offers an extensive
+                library of songs across various genres. It provides personalized
+                playlists, radio stations, and the option to create and share
+                custom playlists. Users can discover new music, follow their
+                favorite artists, and enjoy high-quality audio streaming. The
+                app also features offline listening and an intuitive interface
+                for a seamless music experience.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Need in</h3>
+              <p>
+                A convenient online shopping platform that allows users to
+                browse and purchase a wide range of products from the comfort of
+                their homes. The app provides detailed product descriptions,
+                customer reviews, and secure payment options. Users can explore
+                a diverse collection of items, including clothing, electronics,
+                home essentials, and more. With quick delivery and easy return
+                policies, the app ensures a hassle-free shopping experience.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- -------------------------contact----------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>dhnaumjayabonu321@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>7396116356</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Cv.jpg" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <p>Dhanu©<i class="fa-solid fa-heart"></i>love</p>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbz4pG5EN8Hnrbe8MeRLZTZSqjiHXYuCrkmpW7Hju5bvWCtdPoSB_-RgvPkV1gjWIX_dQQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+              msg.innerHTML = "Message sent successfully"
+              setTimeout(function(){
+                  msg.innerHTML = ""
+              },5000)
+              form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
